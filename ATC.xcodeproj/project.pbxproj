@@ -1,0 +1,856 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A301A345167F675800D1AAB7 /* UIView+addShadow.m in Sources */ = {isa = PBXBuildFile; fileRef = A301A344167F675800D1AAB7 /* UIView+addShadow.m */; };
+		A301A349167F834700D1AAB7 /* ATCCustomSectionHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = A301A348167F834700D1AAB7 /* ATCCustomSectionHeader.m */; };
+		A306B273166FFFF60099F167 /* ATCColorPalette.m in Sources */ = {isa = PBXBuildFile; fileRef = A306B272166FFFF60099F167 /* ATCColorPalette.m */; };
+		A31FFAFE166B8460009D9E10 /* ATCQuestionStatisticsVC.m in Sources */ = {isa = PBXBuildFile; fileRef = A31FFAFC166B8460009D9E10 /* ATCQuestionStatisticsVC.m */; };
+		A31FFAFF166B8460009D9E10 /* ATCQuestionStatisticsVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = A31FFAFD166B8460009D9E10 /* ATCQuestionStatisticsVC.xib */; };
+		A325666D1689CA8B00E783DB /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = A325666B1689CA8B00E783DB /* Icon.png */; };
+		A325666E1689CA8B00E783DB /* Icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A325666C1689CA8B00E783DB /* Icon@2x.png */; };
+		A325C1B41660610200ED1FE7 /* ATCTopMenuVC.m in Sources */ = {isa = PBXBuildFile; fileRef = A325C1B21660610200ED1FE7 /* ATCTopMenuVC.m */; };
+		A325C1B51660610200ED1FE7 /* ATCTopMenuVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = A325C1B31660610200ED1FE7 /* ATCTopMenuVC.xib */; };
+		A325C1DB1661AC3500ED1FE7 /* ATCPreviousQuestionMiniVC.m in Sources */ = {isa = PBXBuildFile; fileRef = A325C1DA1661AC3500ED1FE7 /* ATCPreviousQuestionMiniVC.m */; };
+		A325C1DE1662395F00ED1FE7 /* ATCVoteContainerVC.m in Sources */ = {isa = PBXBuildFile; fileRef = A325C1DD1662395F00ED1FE7 /* ATCVoteContainerVC.m */; };
+		A340F83516682DD5002FB659 /* ATCVoteCountBar.m in Sources */ = {isa = PBXBuildFile; fileRef = A340F83416682DD5002FB659 /* ATCVoteCountBar.m */; };
+		A350F50E167FB62B0029309F /* ATCSearchQuestionsTVC.m in Sources */ = {isa = PBXBuildFile; fileRef = A350F50D167FB62B0029309F /* ATCSearchQuestionsTVC.m */; };
+		A35AD0F01682930D002ABBA7 /* UIBarButtonItem+customBackground.m in Sources */ = {isa = PBXBuildFile; fileRef = A35AD0EF1682930D002ABBA7 /* UIBarButtonItem+customBackground.m */; };
+		A3665622166ABEE0002B7270 /* ATCFullAlternativeInformationVC.m in Sources */ = {isa = PBXBuildFile; fileRef = A3665620166ABEE0002B7270 /* ATCFullAlternativeInformationVC.m */; };
+		A3751822168918A400C2A736 /* back_pressed.png in Resources */ = {isa = PBXBuildFile; fileRef = A3751820168918A400C2A736 /* back_pressed.png */; };
+		A3751823168918A400C2A736 /* back_regular.png in Resources */ = {isa = PBXBuildFile; fileRef = A3751821168918A400C2A736 /* back_regular.png */; };
+		A375182616891A5000C2A736 /* button_pressed.png in Resources */ = {isa = PBXBuildFile; fileRef = A375182416891A5000C2A736 /* button_pressed.png */; };
+		A375182716891A5000C2A736 /* button_regular.png in Resources */ = {isa = PBXBuildFile; fileRef = A375182516891A5000C2A736 /* button_regular.png */; };
+		A3797BCD166D4FC8008B5BC5 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A3797BCC166D4FC8008B5BC5 /* QuartzCore.framework */; };
+		A3A0F71D1672779D007ACA4D /* ATCCreateQuestionTVC.m in Sources */ = {isa = PBXBuildFile; fileRef = A3A0F71B1672779D007ACA4D /* ATCCreateQuestionTVC.m */; };
+		A3A0F72A16729363007ACA4D /* UITextView+sizeFontToFitFrame.m in Sources */ = {isa = PBXBuildFile; fileRef = A3A0F72916729363007ACA4D /* UITextView+sizeFontToFitFrame.m */; };
+		A3ABAEAD1668EB7200CE7B2F /* ATCDefinitions.m in Sources */ = {isa = PBXBuildFile; fileRef = A3ABAEAC1668EB7200CE7B2F /* ATCDefinitions.m */; };
+		A3C04282165BA370006A666C /* ATCAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A3C502B3165A745C0011C6CF /* ATCAppDelegate.m */; };
+		A3C04285165BA517006A666C /* ATCServerInterface.m in Sources */ = {isa = PBXBuildFile; fileRef = A3C04284165BA517006A666C /* ATCServerInterface.m */; };
+		A3C0428F165BE856006A666C /* NSDictionary+JSON.m in Sources */ = {isa = PBXBuildFile; fileRef = A3C0428E165BE856006A666C /* NSDictionary+JSON.m */; };
+		A3C04292165BF0F8006A666C /* ATCQuestionAlternative.m in Sources */ = {isa = PBXBuildFile; fileRef = A3C04291165BF0F8006A666C /* ATCQuestionAlternative.m */; };
+		A3C04297165C0B92006A666C /* ATCQuestionStorage.m in Sources */ = {isa = PBXBuildFile; fileRef = A3C04296165C0B91006A666C /* ATCQuestionStorage.m */; };
+		A3C0429B165C0C2D006A666C /* ATCQuestionList.m in Sources */ = {isa = PBXBuildFile; fileRef = A3C0429A165C0C2D006A666C /* ATCQuestionList.m */; };
+		A3C502A4165A745C0011C6CF /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A3C502A3165A745C0011C6CF /* UIKit.framework */; };
+		A3C502A6165A745C0011C6CF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A3C502A5165A745C0011C6CF /* Foundation.framework */; };
+		A3C502A8165A745C0011C6CF /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A3C502A7165A745C0011C6CF /* CoreGraphics.framework */; };
+		A3C502B0165A745C0011C6CF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A3C502AF165A745C0011C6CF /* main.m */; };
+		A3C502B6165A745C0011C6CF /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = A3C502B5165A745C0011C6CF /* Default.png */; };
+		A3C502B8165A745C0011C6CF /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A3C502B7165A745C0011C6CF /* Default@2x.png */; };
+		A3C502BA165A745C0011C6CF /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A3C502B9165A745C0011C6CF /* Default-568h@2x.png */; };
+		A3C502C0165A745C0011C6CF /* ATCViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A3C502BF165A745C0011C6CF /* ATCViewController.m */; };
+		A3C502C8165A74BA0011C6CF /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A3C502C6165A74BA0011C6CF /* InfoPlist.strings */; };
+		A3C502D2165A75260011C6CF /* ATCChooseDataVC.m in Sources */ = {isa = PBXBuildFile; fileRef = A3C502D0165A75260011C6CF /* ATCChooseDataVC.m */; };
+		A3C502D3165A75260011C6CF /* ATCChooseDataVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = A3C502D1165A75260011C6CF /* ATCChooseDataVC.xib */; };
+		A3C502D6165A75300011C6CF /* ATCCreateQuestionVC.m in Sources */ = {isa = PBXBuildFile; fileRef = A3C502D5165A75300011C6CF /* ATCCreateQuestionVC.m */; };
+		A3C502D9165A753A0011C6CF /* ATCQuestion.m in Sources */ = {isa = PBXBuildFile; fileRef = A3C502D8165A753A0011C6CF /* ATCQuestion.m */; };
+		A3C502E2165A75500011C6CF /* ATCQuestionVC.m in Sources */ = {isa = PBXBuildFile; fileRef = A3C502E0165A75500011C6CF /* ATCQuestionVC.m */; };
+		A3C502E3165A75500011C6CF /* ATCQuestionVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = A3C502E1165A75500011C6CF /* ATCQuestionVC.xib */; };
+		A3C502F1165A75810011C6CF /* TPKeyboardAvoidingScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = A3C502EE165A75810011C6CF /* TPKeyboardAvoidingScrollView.m */; };
+		A3C502F2165A75810011C6CF /* UILabel+sizeToFit.m in Sources */ = {isa = PBXBuildFile; fileRef = A3C502F0165A75810011C6CF /* UILabel+sizeToFit.m */; };
+		A3CC5F241674DA7100930EDA /* ATCCustomCellBackground.m in Sources */ = {isa = PBXBuildFile; fileRef = A3CC5F231674DA7100930EDA /* ATCCustomCellBackground.m */; };
+		A3CC5F2A167554BB00930EDA /* ATCCommonDrawing.m in Sources */ = {isa = PBXBuildFile; fileRef = A3CC5F29167554BB00930EDA /* ATCCommonDrawing.m */; };
+		A3DBD367167C899A002E6BE2 /* ATCVoteCache.m in Sources */ = {isa = PBXBuildFile; fileRef = A3DBD366167C899A002E6BE2 /* ATCVoteCache.m */; };
+		A3DBD36B167C89C1002E6BE2 /* NSMutableArray+FIFO.m in Sources */ = {isa = PBXBuildFile; fileRef = A3DBD36A167C89C1002E6BE2 /* NSMutableArray+FIFO.m */; };
+		A3DBD36E167C89F6002E6BE2 /* ATCQuestionVoteStruct.m in Sources */ = {isa = PBXBuildFile; fileRef = A3DBD36D167C89F6002E6BE2 /* ATCQuestionVoteStruct.m */; };
+		A3E6BCC41677F555006D5805 /* ATCLoadingIndicator.m in Sources */ = {isa = PBXBuildFile; fileRef = A3E6BCC31677F555006D5805 /* ATCLoadingIndicator.m */; };
+		A3EDEC39167EA50600AFAB4B /* PDKeychainBindings.m in Sources */ = {isa = PBXBuildFile; fileRef = A3EDEC36167EA50500AFAB4B /* PDKeychainBindings.m */; };
+		A3EDEC3A167EA50600AFAB4B /* PDKeychainBindingsController.m in Sources */ = {isa = PBXBuildFile; fileRef = A3EDEC38167EA50500AFAB4B /* PDKeychainBindingsController.m */; };
+		A3EDEC49167EC25E00AFAB4B /* ATCUserPageTVC.m in Sources */ = {isa = PBXBuildFile; fileRef = A3EDEC48167EC25E00AFAB4B /* ATCUserPageTVC.m */; };
+		A3F2CFE7167FC6CC0039BA7F /* NSString+boolAppender.m in Sources */ = {isa = PBXBuildFile; fileRef = A3F2CFE6167FC6CC0039BA7F /* NSString+boolAppender.m */; };
+		A3F2CFEB167FEEFC0039BA7F /* ATCLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = A3F2CFEA167FEEFC0039BA7F /* ATCLabel.m */; };
+		A3FB9129167DE39800B70592 /* ATCUserAuthHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = A3FB9128167DE39800B70592 /* ATCUserAuthHelper.m */; };
+		A3FB912E167DE66D00B70592 /* ATCLoginTVC.m in Sources */ = {isa = PBXBuildFile; fileRef = A3FB912C167DE66D00B70592 /* ATCLoginTVC.m */; };
+		A3FB9150167E6ADC00B70592 /* NSString+de_encoding.m in Sources */ = {isa = PBXBuildFile; fileRef = A3FB914F167E6ADC00B70592 /* NSString+de_encoding.m */; };
+		BE69C7A0167C039500370CE8 /* ATCListItemsTVC.m in Sources */ = {isa = PBXBuildFile; fileRef = BE69C79F167C039500370CE8 /* ATCListItemsTVC.m */; };
+		BEA50628165A7C5C0004BAC2 /* serverAPI-reference.txt in Resources */ = {isa = PBXBuildFile; fileRef = BEA50627165A7C5C0004BAC2 /* serverAPI-reference.txt */; };
+		BEB9B1D4167E6B6400471B18 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BEB9B1D3167E6B6400471B18 /* Security.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A301A343167F675800D1AAB7 /* UIView+addShadow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+addShadow.h"; sourceTree = "<group>"; };
+		A301A344167F675800D1AAB7 /* UIView+addShadow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+addShadow.m"; sourceTree = "<group>"; };
+		A301A347167F834600D1AAB7 /* ATCCustomSectionHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ATCCustomSectionHeader.h; sourceTree = "<group>"; };
+		A301A348167F834700D1AAB7 /* ATCCustomSectionHeader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ATCCustomSectionHeader.m; sourceTree = "<group>"; };
+		A306B271166FFFF60099F167 /* ATCColorPalette.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ATCColorPalette.h; sourceTree = "<group>"; };
+		A306B272166FFFF60099F167 /* ATCColorPalette.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ATCColorPalette.m; sourceTree = "<group>"; };
+		A31FFAFB166B8460009D9E10 /* ATCQuestionStatisticsVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ATCQuestionStatisticsVC.h; sourceTree = "<group>"; };
+		A31FFAFC166B8460009D9E10 /* ATCQuestionStatisticsVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ATCQuestionStatisticsVC.m; sourceTree = "<group>"; };
+		A31FFAFD166B8460009D9E10 /* ATCQuestionStatisticsVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ATCQuestionStatisticsVC.xib; sourceTree = "<group>"; };
+		A325666B1689CA8B00E783DB /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+		A325666C1689CA8B00E783DB /* Icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon@2x.png"; sourceTree = "<group>"; };
+		A325C1B11660610200ED1FE7 /* ATCTopMenuVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ATCTopMenuVC.h; sourceTree = "<group>"; };
+		A325C1B21660610200ED1FE7 /* ATCTopMenuVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ATCTopMenuVC.m; sourceTree = "<group>"; };
+		A325C1B31660610200ED1FE7 /* ATCTopMenuVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ATCTopMenuVC.xib; sourceTree = "<group>"; };
+		A325C1D91661AC3500ED1FE7 /* ATCPreviousQuestionMiniVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ATCPreviousQuestionMiniVC.h; sourceTree = "<group>"; };
+		A325C1DA1661AC3500ED1FE7 /* ATCPreviousQuestionMiniVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ATCPreviousQuestionMiniVC.m; sourceTree = "<group>"; };
+		A325C1DC1662395F00ED1FE7 /* ATCVoteContainerVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ATCVoteContainerVC.h; sourceTree = "<group>"; };
+		A325C1DD1662395F00ED1FE7 /* ATCVoteContainerVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ATCVoteContainerVC.m; sourceTree = "<group>"; };
+		A340F83316682DD5002FB659 /* ATCVoteCountBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ATCVoteCountBar.h; sourceTree = "<group>"; };
+		A340F83416682DD5002FB659 /* ATCVoteCountBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ATCVoteCountBar.m; sourceTree = "<group>"; };
+		A350F50C167FB62B0029309F /* ATCSearchQuestionsTVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ATCSearchQuestionsTVC.h; sourceTree = "<group>"; };
+		A350F50D167FB62B0029309F /* ATCSearchQuestionsTVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ATCSearchQuestionsTVC.m; sourceTree = "<group>"; };
+		A3515B8516B95BC80061CE36 /* ATCLoginPassword.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ATCLoginPassword.h; sourceTree = "<group>"; };
+		A35AD0EE1682930D002ABBA7 /* UIBarButtonItem+customBackground.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIBarButtonItem+customBackground.h"; sourceTree = "<group>"; };
+		A35AD0EF1682930D002ABBA7 /* UIBarButtonItem+customBackground.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIBarButtonItem+customBackground.m"; sourceTree = "<group>"; };
+		A366561F166ABEE0002B7270 /* ATCFullAlternativeInformationVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ATCFullAlternativeInformationVC.h; sourceTree = "<group>"; };
+		A3665620166ABEE0002B7270 /* ATCFullAlternativeInformationVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ATCFullAlternativeInformationVC.m; sourceTree = "<group>"; };
+		A3751820168918A400C2A736 /* back_pressed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = back_pressed.png; sourceTree = "<group>"; };
+		A3751821168918A400C2A736 /* back_regular.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = back_regular.png; sourceTree = "<group>"; };
+		A375182416891A5000C2A736 /* button_pressed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = button_pressed.png; sourceTree = "<group>"; };
+		A375182516891A5000C2A736 /* button_regular.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = button_regular.png; sourceTree = "<group>"; };
+		A3797BCC166D4FC8008B5BC5 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		A3A0F71A1672779D007ACA4D /* ATCCreateQuestionTVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ATCCreateQuestionTVC.h; sourceTree = "<group>"; };
+		A3A0F71B1672779D007ACA4D /* ATCCreateQuestionTVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ATCCreateQuestionTVC.m; sourceTree = "<group>"; };
+		A3A0F72816729363007ACA4D /* UITextView+sizeFontToFitFrame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITextView+sizeFontToFitFrame.h"; sourceTree = "<group>"; };
+		A3A0F72916729363007ACA4D /* UITextView+sizeFontToFitFrame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITextView+sizeFontToFitFrame.m"; sourceTree = "<group>"; };
+		A3ABAEAB1668EB7200CE7B2F /* ATCDefinitions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ATCDefinitions.h; sourceTree = "<group>"; };
+		A3ABAEAC1668EB7200CE7B2F /* ATCDefinitions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ATCDefinitions.m; sourceTree = "<group>"; };
+		A3C04283165BA517006A666C /* ATCServerInterface.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ATCServerInterface.h; sourceTree = "<group>"; };
+		A3C04284165BA517006A666C /* ATCServerInterface.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ATCServerInterface.m; sourceTree = "<group>"; };
+		A3C0428D165BE856006A666C /* NSDictionary+JSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+JSON.h"; sourceTree = "<group>"; };
+		A3C0428E165BE856006A666C /* NSDictionary+JSON.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+JSON.m"; sourceTree = "<group>"; };
+		A3C04290165BF0F8006A666C /* ATCQuestionAlternative.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ATCQuestionAlternative.h; sourceTree = "<group>"; };
+		A3C04291165BF0F8006A666C /* ATCQuestionAlternative.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ATCQuestionAlternative.m; sourceTree = "<group>"; };
+		A3C04295165C0B91006A666C /* ATCQuestionStorage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ATCQuestionStorage.h; sourceTree = "<group>"; };
+		A3C04296165C0B91006A666C /* ATCQuestionStorage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ATCQuestionStorage.m; sourceTree = "<group>"; };
+		A3C04299165C0C2D006A666C /* ATCQuestionList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ATCQuestionList.h; sourceTree = "<group>"; };
+		A3C0429A165C0C2D006A666C /* ATCQuestionList.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ATCQuestionList.m; sourceTree = "<group>"; };
+		A3C5029F165A745C0011C6CF /* AskTheCloud.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AskTheCloud.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A3C502A3165A745C0011C6CF /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		A3C502A5165A745C0011C6CF /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		A3C502A7165A745C0011C6CF /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		A3C502AB165A745C0011C6CF /* ATC-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ATC-Info.plist"; sourceTree = "<group>"; };
+		A3C502AF165A745C0011C6CF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A3C502B1165A745C0011C6CF /* ATC-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ATC-Prefix.pch"; sourceTree = "<group>"; };
+		A3C502B2165A745C0011C6CF /* ATCAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ATCAppDelegate.h; sourceTree = "<group>"; };
+		A3C502B3165A745C0011C6CF /* ATCAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ATCAppDelegate.m; sourceTree = "<group>"; };
+		A3C502B5165A745C0011C6CF /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		A3C502B7165A745C0011C6CF /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		A3C502B9165A745C0011C6CF /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		A3C502BE165A745C0011C6CF /* ATCViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ATCViewController.h; sourceTree = "<group>"; };
+		A3C502BF165A745C0011C6CF /* ATCViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ATCViewController.m; sourceTree = "<group>"; };
+		A3C502C6165A74BA0011C6CF /* InfoPlist.strings */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; path = InfoPlist.strings; sourceTree = "<group>"; };
+		A3C502CF165A75260011C6CF /* ATCChooseDataVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ATCChooseDataVC.h; sourceTree = "<group>"; };
+		A3C502D0165A75260011C6CF /* ATCChooseDataVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ATCChooseDataVC.m; sourceTree = "<group>"; };
+		A3C502D1165A75260011C6CF /* ATCChooseDataVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ATCChooseDataVC.xib; sourceTree = "<group>"; };
+		A3C502D4165A75300011C6CF /* ATCCreateQuestionVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ATCCreateQuestionVC.h; sourceTree = "<group>"; };
+		A3C502D5165A75300011C6CF /* ATCCreateQuestionVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ATCCreateQuestionVC.m; sourceTree = "<group>"; };
+		A3C502D7165A753A0011C6CF /* ATCQuestion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ATCQuestion.h; sourceTree = "<group>"; };
+		A3C502D8165A753A0011C6CF /* ATCQuestion.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ATCQuestion.m; sourceTree = "<group>"; };
+		A3C502DF165A75500011C6CF /* ATCQuestionVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ATCQuestionVC.h; sourceTree = "<group>"; };
+		A3C502E0165A75500011C6CF /* ATCQuestionVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ATCQuestionVC.m; sourceTree = "<group>"; };
+		A3C502E1165A75500011C6CF /* ATCQuestionVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ATCQuestionVC.xib; sourceTree = "<group>"; };
+		A3C502ED165A75810011C6CF /* TPKeyboardAvoidingScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TPKeyboardAvoidingScrollView.h; sourceTree = "<group>"; };
+		A3C502EE165A75810011C6CF /* TPKeyboardAvoidingScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TPKeyboardAvoidingScrollView.m; sourceTree = "<group>"; };
+		A3C502EF165A75810011C6CF /* UILabel+sizeToFit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UILabel+sizeToFit.h"; sourceTree = "<group>"; };
+		A3C502F0165A75810011C6CF /* UILabel+sizeToFit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UILabel+sizeToFit.m"; sourceTree = "<group>"; };
+		A3CC5F221674DA7100930EDA /* ATCCustomCellBackground.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ATCCustomCellBackground.h; sourceTree = "<group>"; };
+		A3CC5F231674DA7100930EDA /* ATCCustomCellBackground.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ATCCustomCellBackground.m; sourceTree = "<group>"; };
+		A3CC5F28167554BB00930EDA /* ATCCommonDrawing.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ATCCommonDrawing.h; sourceTree = "<group>"; };
+		A3CC5F29167554BB00930EDA /* ATCCommonDrawing.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ATCCommonDrawing.m; sourceTree = "<group>"; };
+		A3DBD365167C899A002E6BE2 /* ATCVoteCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ATCVoteCache.h; sourceTree = "<group>"; };
+		A3DBD366167C899A002E6BE2 /* ATCVoteCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ATCVoteCache.m; sourceTree = "<group>"; };
+		A3DBD369167C89C1002E6BE2 /* NSMutableArray+FIFO.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableArray+FIFO.h"; sourceTree = "<group>"; };
+		A3DBD36A167C89C1002E6BE2 /* NSMutableArray+FIFO.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableArray+FIFO.m"; sourceTree = "<group>"; };
+		A3DBD36C167C89F6002E6BE2 /* ATCQuestionVoteStruct.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ATCQuestionVoteStruct.h; sourceTree = "<group>"; };
+		A3DBD36D167C89F6002E6BE2 /* ATCQuestionVoteStruct.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ATCQuestionVoteStruct.m; sourceTree = "<group>"; };
+		A3E6BCC21677F555006D5805 /* ATCLoadingIndicator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ATCLoadingIndicator.h; sourceTree = "<group>"; };
+		A3E6BCC31677F555006D5805 /* ATCLoadingIndicator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ATCLoadingIndicator.m; sourceTree = "<group>"; };
+		A3EDEC35167EA50500AFAB4B /* PDKeychainBindings.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PDKeychainBindings.h; sourceTree = "<group>"; };
+		A3EDEC36167EA50500AFAB4B /* PDKeychainBindings.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PDKeychainBindings.m; sourceTree = "<group>"; };
+		A3EDEC37167EA50500AFAB4B /* PDKeychainBindingsController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PDKeychainBindingsController.h; sourceTree = "<group>"; };
+		A3EDEC38167EA50500AFAB4B /* PDKeychainBindingsController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PDKeychainBindingsController.m; sourceTree = "<group>"; };
+		A3EDEC47167EC25E00AFAB4B /* ATCUserPageTVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ATCUserPageTVC.h; sourceTree = "<group>"; };
+		A3EDEC48167EC25E00AFAB4B /* ATCUserPageTVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ATCUserPageTVC.m; sourceTree = "<group>"; };
+		A3F2CFE5167FC6CC0039BA7F /* NSString+boolAppender.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+boolAppender.h"; sourceTree = "<group>"; };
+		A3F2CFE6167FC6CC0039BA7F /* NSString+boolAppender.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+boolAppender.m"; sourceTree = "<group>"; };
+		A3F2CFE9167FEEFC0039BA7F /* ATCLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ATCLabel.h; sourceTree = "<group>"; };
+		A3F2CFEA167FEEFC0039BA7F /* ATCLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ATCLabel.m; sourceTree = "<group>"; };
+		A3FB9127167DE39800B70592 /* ATCUserAuthHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ATCUserAuthHelper.h; sourceTree = "<group>"; };
+		A3FB9128167DE39800B70592 /* ATCUserAuthHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ATCUserAuthHelper.m; sourceTree = "<group>"; };
+		A3FB912B167DE66D00B70592 /* ATCLoginTVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ATCLoginTVC.h; sourceTree = "<group>"; };
+		A3FB912C167DE66D00B70592 /* ATCLoginTVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ATCLoginTVC.m; sourceTree = "<group>"; };
+		A3FB914E167E6ADC00B70592 /* NSString+de_encoding.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+de_encoding.h"; sourceTree = "<group>"; };
+		A3FB914F167E6ADC00B70592 /* NSString+de_encoding.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+de_encoding.m"; sourceTree = "<group>"; };
+		BE69C79E167C039500370CE8 /* ATCListItemsTVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ATCListItemsTVC.h; sourceTree = "<group>"; };
+		BE69C79F167C039500370CE8 /* ATCListItemsTVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ATCListItemsTVC.m; sourceTree = "<group>"; };
+		BEA50627165A7C5C0004BAC2 /* serverAPI-reference.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "serverAPI-reference.txt"; sourceTree = "<group>"; };
+		BEB9B1D3167E6B6400471B18 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A3C5029C165A745C0011C6CF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BEB9B1D4167E6B6400471B18 /* Security.framework in Frameworks */,
+				A3797BCD166D4FC8008B5BC5 /* QuartzCore.framework in Frameworks */,
+				A3C502A4165A745C0011C6CF /* UIKit.framework in Frameworks */,
+				A3C502A6165A745C0011C6CF /* Foundation.framework in Frameworks */,
+				A3C502A8165A745C0011C6CF /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A301A34A167F835000D1AAB7 /* CustomHeader */ = {
+			isa = PBXGroup;
+			children = (
+				A301A347167F834600D1AAB7 /* ATCCustomSectionHeader.h */,
+				A301A348167F834700D1AAB7 /* ATCCustomSectionHeader.m */,
+			);
+			name = CustomHeader;
+			sourceTree = "<group>";
+		};
+		A3154A12167B8CF8007B1C55 /* OldFiles */ = {
+			isa = PBXGroup;
+			children = (
+				A325C1D91661AC3500ED1FE7 /* ATCPreviousQuestionMiniVC.h */,
+				A325C1DA1661AC3500ED1FE7 /* ATCPreviousQuestionMiniVC.m */,
+			);
+			name = OldFiles;
+			sourceTree = "<group>";
+		};
+		A31FFAF9166B8435009D9E10 /* QuestionStatistics */ = {
+			isa = PBXGroup;
+			children = (
+				A366561D166ABD14002B7270 /* FullScreenPreviousQuestion */,
+				A31FFAFB166B8460009D9E10 /* ATCQuestionStatisticsVC.h */,
+				A31FFAFC166B8460009D9E10 /* ATCQuestionStatisticsVC.m */,
+				A31FFAFD166B8460009D9E10 /* ATCQuestionStatisticsVC.xib */,
+			);
+			name = QuestionStatistics;
+			sourceTree = "<group>";
+		};
+		A325C1B0166060EB00ED1FE7 /* TopMenu */ = {
+			isa = PBXGroup;
+			children = (
+				A325C1B11660610200ED1FE7 /* ATCTopMenuVC.h */,
+				A325C1B21660610200ED1FE7 /* ATCTopMenuVC.m */,
+				A325C1B31660610200ED1FE7 /* ATCTopMenuVC.xib */,
+			);
+			name = TopMenu;
+			sourceTree = "<group>";
+		};
+		A325C1DF1662396500ED1FE7 /* VoteVC */ = {
+			isa = PBXGroup;
+			children = (
+				A3154A12167B8CF8007B1C55 /* OldFiles */,
+				A31FFAF9166B8435009D9E10 /* QuestionStatistics */,
+				A3C502DF165A75500011C6CF /* ATCQuestionVC.h */,
+				A3C502E0165A75500011C6CF /* ATCQuestionVC.m */,
+				A3C502E1165A75500011C6CF /* ATCQuestionVC.xib */,
+			);
+			name = VoteVC;
+			sourceTree = "<group>";
+		};
+		A340F83216682D58002FB659 /* VoteBar */ = {
+			isa = PBXGroup;
+			children = (
+				A340F83316682DD5002FB659 /* ATCVoteCountBar.h */,
+				A340F83416682DD5002FB659 /* ATCVoteCountBar.m */,
+			);
+			name = VoteBar;
+			sourceTree = "<group>";
+		};
+		A350F50A167FB61D0029309F /* SearchQuestions */ = {
+			isa = PBXGroup;
+			children = (
+				A350F50C167FB62B0029309F /* ATCSearchQuestionsTVC.h */,
+				A350F50D167FB62B0029309F /* ATCSearchQuestionsTVC.m */,
+			);
+			name = SearchQuestions;
+			sourceTree = "<group>";
+		};
+		A3515B8216B95BA80061CE36 /* LoginInfo */ = {
+			isa = PBXGroup;
+			children = (
+				A3515B8516B95BC80061CE36 /* ATCLoginPassword.h */,
+			);
+			name = LoginInfo;
+			sourceTree = "<group>";
+		};
+		A3515B8416B95BB10061CE36 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				A375182416891A5000C2A736 /* button_pressed.png */,
+				A375182516891A5000C2A736 /* button_regular.png */,
+				A3751820168918A400C2A736 /* back_pressed.png */,
+				A3751821168918A400C2A736 /* back_regular.png */,
+				A325666B1689CA8B00E783DB /* Icon.png */,
+				A325666C1689CA8B00E783DB /* Icon@2x.png */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
+		A35F06C316808C9700E52F0F /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				A3515B8216B95BA80061CE36 /* LoginInfo */,
+				A3515B8416B95BB10061CE36 /* Images */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		A366561D166ABD14002B7270 /* FullScreenPreviousQuestion */ = {
+			isa = PBXGroup;
+			children = (
+				A340F83216682D58002FB659 /* VoteBar */,
+				A366561F166ABEE0002B7270 /* ATCFullAlternativeInformationVC.h */,
+				A3665620166ABEE0002B7270 /* ATCFullAlternativeInformationVC.m */,
+			);
+			name = FullScreenPreviousQuestion;
+			sourceTree = "<group>";
+		};
+		A3A0F7181672776D007ACA4D /* OldView */ = {
+			isa = PBXGroup;
+			children = (
+				A3C502D4165A75300011C6CF /* ATCCreateQuestionVC.h */,
+				A3C502D5165A75300011C6CF /* ATCCreateQuestionVC.m */,
+				BE3C5D331661685700BA60F5 /* ChooseData */,
+			);
+			name = OldView;
+			sourceTree = "<group>";
+		};
+		A3A0F71F16728442007ACA4D /* alternativeCell */ = {
+			isa = PBXGroup;
+			children = (
+				A3CC5F221674DA7100930EDA /* ATCCustomCellBackground.h */,
+				A3CC5F231674DA7100930EDA /* ATCCustomCellBackground.m */,
+			);
+			name = alternativeCell;
+			sourceTree = "<group>";
+		};
+		A3C04298165C0C10006A666C /* QuestionStorage */ = {
+			isa = PBXGroup;
+			children = (
+				A3C04295165C0B91006A666C /* ATCQuestionStorage.h */,
+				A3C04296165C0B91006A666C /* ATCQuestionStorage.m */,
+				BE3C5D341661689D00BA60F5 /* QuestionList */,
+			);
+			name = QuestionStorage;
+			sourceTree = "<group>";
+		};
+		A3C50294165A745C0011C6CF = {
+			isa = PBXGroup;
+			children = (
+				BEB9B1D3167E6B6400471B18 /* Security.framework */,
+				A3797BCC166D4FC8008B5BC5 /* QuartzCore.framework */,
+				A3C502A9165A745C0011C6CF /* ATC */,
+				A3C502A2165A745C0011C6CF /* Frameworks */,
+				A3C502A0165A745C0011C6CF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A3C502A0165A745C0011C6CF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A3C5029F165A745C0011C6CF /* AskTheCloud.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A3C502A2165A745C0011C6CF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A3C502A3165A745C0011C6CF /* UIKit.framework */,
+				A3C502A5165A745C0011C6CF /* Foundation.framework */,
+				A3C502A7165A745C0011C6CF /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A3C502A9165A745C0011C6CF /* ATC */ = {
+			isa = PBXGroup;
+			children = (
+				A35F06C316808C9700E52F0F /* Resources */,
+				BE3C5D30166166C200BA60F5 /* TopViewController */,
+				A3C502CE165A750D0011C6CF /* GeneralObjects */,
+				A3C502CB165A74E10011C6CF /* HelperClasses */,
+				A3C502B2165A745C0011C6CF /* ATCAppDelegate.h */,
+				A3C502B3165A745C0011C6CF /* ATCAppDelegate.m */,
+				A3ABAEAB1668EB7200CE7B2F /* ATCDefinitions.h */,
+				A3ABAEAC1668EB7200CE7B2F /* ATCDefinitions.m */,
+				A3C502C6165A74BA0011C6CF /* InfoPlist.strings */,
+				A3C502AA165A745C0011C6CF /* Supporting Files */,
+			);
+			path = ATC;
+			sourceTree = "<group>";
+		};
+		A3C502AA165A745C0011C6CF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A3C502AB165A745C0011C6CF /* ATC-Info.plist */,
+				A3C502AF165A745C0011C6CF /* main.m */,
+				A3C502B1165A745C0011C6CF /* ATC-Prefix.pch */,
+				A3C502B5165A745C0011C6CF /* Default.png */,
+				A3C502B7165A745C0011C6CF /* Default@2x.png */,
+				A3C502B9165A745C0011C6CF /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A3C502CA165A74D70011C6CF /* Voting */ = {
+			isa = PBXGroup;
+			children = (
+				A325C1DF1662396500ED1FE7 /* VoteVC */,
+				A325C1DC1662395F00ED1FE7 /* ATCVoteContainerVC.h */,
+				A325C1DD1662395F00ED1FE7 /* ATCVoteContainerVC.m */,
+			);
+			name = Voting;
+			sourceTree = "<group>";
+		};
+		A3C502CB165A74E10011C6CF /* HelperClasses */ = {
+			isa = PBXGroup;
+			children = (
+				A3DBD369167C89C1002E6BE2 /* NSMutableArray+FIFO.h */,
+				A3DBD36A167C89C1002E6BE2 /* NSMutableArray+FIFO.m */,
+				A3CC5F271675549A00930EDA /* Server */,
+				A3CC5F261675548500930EDA /* Drawing */,
+				A3C502ED165A75810011C6CF /* TPKeyboardAvoidingScrollView.h */,
+				A3C502EE165A75810011C6CF /* TPKeyboardAvoidingScrollView.m */,
+				A3C502EF165A75810011C6CF /* UILabel+sizeToFit.h */,
+				A3C502F0165A75810011C6CF /* UILabel+sizeToFit.m */,
+				A3A0F72816729363007ACA4D /* UITextView+sizeFontToFitFrame.h */,
+				A3A0F72916729363007ACA4D /* UITextView+sizeFontToFitFrame.m */,
+				A3F2CFE5167FC6CC0039BA7F /* NSString+boolAppender.h */,
+				A3F2CFE6167FC6CC0039BA7F /* NSString+boolAppender.m */,
+				A35AD0EE1682930D002ABBA7 /* UIBarButtonItem+customBackground.h */,
+				A35AD0EF1682930D002ABBA7 /* UIBarButtonItem+customBackground.m */,
+			);
+			name = HelperClasses;
+			sourceTree = "<group>";
+		};
+		A3C502CD165A75030011C6CF /* CreateQuestion */ = {
+			isa = PBXGroup;
+			children = (
+				A3A0F71F16728442007ACA4D /* alternativeCell */,
+				A3A0F7181672776D007ACA4D /* OldView */,
+				A3A0F71A1672779D007ACA4D /* ATCCreateQuestionTVC.h */,
+				A3A0F71B1672779D007ACA4D /* ATCCreateQuestionTVC.m */,
+				A301A34A167F835000D1AAB7 /* CustomHeader */,
+			);
+			name = CreateQuestion;
+			sourceTree = "<group>";
+		};
+		A3C502CE165A750D0011C6CF /* GeneralObjects */ = {
+			isa = PBXGroup;
+			children = (
+				A3FB9125167DE38100B70592 /* UserAuthentication */,
+				A3DBD36F167C8A03002E6BE2 /* VoteCache */,
+				A3C04298165C0C10006A666C /* QuestionStorage */,
+				BE3C5D35166168AF00BA60F5 /* Question */,
+				BEA50625165A7C440004BAC2 /* ServerInterface */,
+			);
+			name = GeneralObjects;
+			sourceTree = "<group>";
+		};
+		A3CC5F261675548500930EDA /* Drawing */ = {
+			isa = PBXGroup;
+			children = (
+				A3F2CFE8167FEEED0039BA7F /* ATCLabel */,
+				A306B271166FFFF60099F167 /* ATCColorPalette.h */,
+				A306B272166FFFF60099F167 /* ATCColorPalette.m */,
+				A3CC5F28167554BB00930EDA /* ATCCommonDrawing.h */,
+				A3CC5F29167554BB00930EDA /* ATCCommonDrawing.m */,
+				A301A343167F675800D1AAB7 /* UIView+addShadow.h */,
+				A301A344167F675800D1AAB7 /* UIView+addShadow.m */,
+			);
+			name = Drawing;
+			sourceTree = "<group>";
+		};
+		A3CC5F271675549A00930EDA /* Server */ = {
+			isa = PBXGroup;
+			children = (
+				A3C0428D165BE856006A666C /* NSDictionary+JSON.h */,
+				A3C0428E165BE856006A666C /* NSDictionary+JSON.m */,
+				A3FB914E167E6ADC00B70592 /* NSString+de_encoding.h */,
+				A3FB914F167E6ADC00B70592 /* NSString+de_encoding.m */,
+			);
+			name = Server;
+			sourceTree = "<group>";
+		};
+		A3DBD36F167C8A03002E6BE2 /* VoteCache */ = {
+			isa = PBXGroup;
+			children = (
+				A3DBD370167C8A14002E6BE2 /* VoteStruct */,
+				A3DBD365167C899A002E6BE2 /* ATCVoteCache.h */,
+				A3DBD366167C899A002E6BE2 /* ATCVoteCache.m */,
+			);
+			name = VoteCache;
+			sourceTree = "<group>";
+		};
+		A3DBD370167C8A14002E6BE2 /* VoteStruct */ = {
+			isa = PBXGroup;
+			children = (
+				A3DBD36C167C89F6002E6BE2 /* ATCQuestionVoteStruct.h */,
+				A3DBD36D167C89F6002E6BE2 /* ATCQuestionVoteStruct.m */,
+			);
+			name = VoteStruct;
+			sourceTree = "<group>";
+		};
+		A3E6BCC01677F53E006D5805 /* LoadingIndicator */ = {
+			isa = PBXGroup;
+			children = (
+				A3E6BCC21677F555006D5805 /* ATCLoadingIndicator.h */,
+				A3E6BCC31677F555006D5805 /* ATCLoadingIndicator.m */,
+			);
+			name = LoadingIndicator;
+			sourceTree = "<group>";
+		};
+		A3EDEC34167EA50500AFAB4B /* PDKeychainBindingsController */ = {
+			isa = PBXGroup;
+			children = (
+				A3EDEC35167EA50500AFAB4B /* PDKeychainBindings.h */,
+				A3EDEC36167EA50500AFAB4B /* PDKeychainBindings.m */,
+				A3EDEC37167EA50500AFAB4B /* PDKeychainBindingsController.h */,
+				A3EDEC38167EA50500AFAB4B /* PDKeychainBindingsController.m */,
+			);
+			path = PDKeychainBindingsController;
+			sourceTree = "<group>";
+		};
+		A3EDEC45167EC24300AFAB4B /* UserPageVC */ = {
+			isa = PBXGroup;
+			children = (
+				A3EDEC47167EC25E00AFAB4B /* ATCUserPageTVC.h */,
+				A3EDEC48167EC25E00AFAB4B /* ATCUserPageTVC.m */,
+			);
+			name = UserPageVC;
+			sourceTree = "<group>";
+		};
+		A3F2CFE8167FEEED0039BA7F /* ATCLabel */ = {
+			isa = PBXGroup;
+			children = (
+				A3F2CFE9167FEEFC0039BA7F /* ATCLabel.h */,
+				A3F2CFEA167FEEFC0039BA7F /* ATCLabel.m */,
+			);
+			name = ATCLabel;
+			sourceTree = "<group>";
+		};
+		A3FB9125167DE38100B70592 /* UserAuthentication */ = {
+			isa = PBXGroup;
+			children = (
+				A3EDEC34167EA50500AFAB4B /* PDKeychainBindingsController */,
+				A3FB9127167DE39800B70592 /* ATCUserAuthHelper.h */,
+				A3FB9128167DE39800B70592 /* ATCUserAuthHelper.m */,
+			);
+			name = UserAuthentication;
+			sourceTree = "<group>";
+		};
+		A3FB912A167DE63B00B70592 /* LoginView */ = {
+			isa = PBXGroup;
+			children = (
+				A3FB912B167DE66D00B70592 /* ATCLoginTVC.h */,
+				A3FB912C167DE66D00B70592 /* ATCLoginTVC.m */,
+			);
+			name = LoginView;
+			sourceTree = "<group>";
+		};
+		BE3C5D30166166C200BA60F5 /* TopViewController */ = {
+			isa = PBXGroup;
+			children = (
+				A3FB912A167DE63B00B70592 /* LoginView */,
+				BE69C79C167C02B600370CE8 /* ListItemsView */,
+				A3E6BCC01677F53E006D5805 /* LoadingIndicator */,
+				A3C502CA165A74D70011C6CF /* Voting */,
+				A3C502CD165A75030011C6CF /* CreateQuestion */,
+				A325C1B0166060EB00ED1FE7 /* TopMenu */,
+				A3C502BE165A745C0011C6CF /* ATCViewController.h */,
+				A3C502BF165A745C0011C6CF /* ATCViewController.m */,
+			);
+			name = TopViewController;
+			sourceTree = "<group>";
+		};
+		BE3C5D331661685700BA60F5 /* ChooseData */ = {
+			isa = PBXGroup;
+			children = (
+				A3C502CF165A75260011C6CF /* ATCChooseDataVC.h */,
+				A3C502D0165A75260011C6CF /* ATCChooseDataVC.m */,
+				A3C502D1165A75260011C6CF /* ATCChooseDataVC.xib */,
+			);
+			name = ChooseData;
+			sourceTree = "<group>";
+		};
+		BE3C5D341661689D00BA60F5 /* QuestionList */ = {
+			isa = PBXGroup;
+			children = (
+				A3C04299165C0C2D006A666C /* ATCQuestionList.h */,
+				A3C0429A165C0C2D006A666C /* ATCQuestionList.m */,
+			);
+			name = QuestionList;
+			sourceTree = "<group>";
+		};
+		BE3C5D35166168AF00BA60F5 /* Question */ = {
+			isa = PBXGroup;
+			children = (
+				BE3C5D36166168BB00BA60F5 /* QuestionAlternative */,
+				A3C502D7165A753A0011C6CF /* ATCQuestion.h */,
+				A3C502D8165A753A0011C6CF /* ATCQuestion.m */,
+			);
+			name = Question;
+			sourceTree = "<group>";
+		};
+		BE3C5D36166168BB00BA60F5 /* QuestionAlternative */ = {
+			isa = PBXGroup;
+			children = (
+				A3C04290165BF0F8006A666C /* ATCQuestionAlternative.h */,
+				A3C04291165BF0F8006A666C /* ATCQuestionAlternative.m */,
+			);
+			name = QuestionAlternative;
+			sourceTree = "<group>";
+		};
+		BE69C79C167C02B600370CE8 /* ListItemsView */ = {
+			isa = PBXGroup;
+			children = (
+				A350F50A167FB61D0029309F /* SearchQuestions */,
+				A3EDEC45167EC24300AFAB4B /* UserPageVC */,
+				BE69C79E167C039500370CE8 /* ATCListItemsTVC.h */,
+				BE69C79F167C039500370CE8 /* ATCListItemsTVC.m */,
+			);
+			name = ListItemsView;
+			sourceTree = "<group>";
+		};
+		BEA50625165A7C440004BAC2 /* ServerInterface */ = {
+			isa = PBXGroup;
+			children = (
+				BEA50627165A7C5C0004BAC2 /* serverAPI-reference.txt */,
+				A3C04283165BA517006A666C /* ATCServerInterface.h */,
+				A3C04284165BA517006A666C /* ATCServerInterface.m */,
+			);
+			name = ServerInterface;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A3C5029E165A745C0011C6CF /* ATC */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A3C502C3165A745C0011C6CF /* Build configuration list for PBXNativeTarget "ATC" */;
+			buildPhases = (
+				A3C5029B165A745C0011C6CF /* Sources */,
+				A3C5029C165A745C0011C6CF /* Frameworks */,
+				A3C5029D165A745C0011C6CF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ATC;
+			productName = ATC;
+			productReference = A3C5029F165A745C0011C6CF /* AskTheCloud.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A3C50296165A745C0011C6CF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = ATC;
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = CA;
+			};
+			buildConfigurationList = A3C50299165A745C0011C6CF /* Build configuration list for PBXProject "ATC" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = A3C50294165A745C0011C6CF;
+			productRefGroup = A3C502A0165A745C0011C6CF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A3C5029E165A745C0011C6CF /* ATC */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A3C5029D165A745C0011C6CF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A3C502B6165A745C0011C6CF /* Default.png in Resources */,
+				A3C502B8165A745C0011C6CF /* Default@2x.png in Resources */,
+				A3C502BA165A745C0011C6CF /* Default-568h@2x.png in Resources */,
+				A3C502C8165A74BA0011C6CF /* InfoPlist.strings in Resources */,
+				A3C502D3165A75260011C6CF /* ATCChooseDataVC.xib in Resources */,
+				A3C502E3165A75500011C6CF /* ATCQuestionVC.xib in Resources */,
+				BEA50628165A7C5C0004BAC2 /* serverAPI-reference.txt in Resources */,
+				A325C1B51660610200ED1FE7 /* ATCTopMenuVC.xib in Resources */,
+				A31FFAFF166B8460009D9E10 /* ATCQuestionStatisticsVC.xib in Resources */,
+				A3751822168918A400C2A736 /* back_pressed.png in Resources */,
+				A3751823168918A400C2A736 /* back_regular.png in Resources */,
+				A375182616891A5000C2A736 /* button_pressed.png in Resources */,
+				A375182716891A5000C2A736 /* button_regular.png in Resources */,
+				A325666D1689CA8B00E783DB /* Icon.png in Resources */,
+				A325666E1689CA8B00E783DB /* Icon@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A3C5029B165A745C0011C6CF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A3C502B0165A745C0011C6CF /* main.m in Sources */,
+				A3C502C0165A745C0011C6CF /* ATCViewController.m in Sources */,
+				A3C502D2165A75260011C6CF /* ATCChooseDataVC.m in Sources */,
+				A3C502D6165A75300011C6CF /* ATCCreateQuestionVC.m in Sources */,
+				A3C502D9165A753A0011C6CF /* ATCQuestion.m in Sources */,
+				A3C502E2165A75500011C6CF /* ATCQuestionVC.m in Sources */,
+				A3C502F1165A75810011C6CF /* TPKeyboardAvoidingScrollView.m in Sources */,
+				A3C502F2165A75810011C6CF /* UILabel+sizeToFit.m in Sources */,
+				A3C04282165BA370006A666C /* ATCAppDelegate.m in Sources */,
+				A3C04285165BA517006A666C /* ATCServerInterface.m in Sources */,
+				A3C0428F165BE856006A666C /* NSDictionary+JSON.m in Sources */,
+				A3C04292165BF0F8006A666C /* ATCQuestionAlternative.m in Sources */,
+				A3C04297165C0B92006A666C /* ATCQuestionStorage.m in Sources */,
+				A3C0429B165C0C2D006A666C /* ATCQuestionList.m in Sources */,
+				A325C1B41660610200ED1FE7 /* ATCTopMenuVC.m in Sources */,
+				A325C1DB1661AC3500ED1FE7 /* ATCPreviousQuestionMiniVC.m in Sources */,
+				A325C1DE1662395F00ED1FE7 /* ATCVoteContainerVC.m in Sources */,
+				A340F83516682DD5002FB659 /* ATCVoteCountBar.m in Sources */,
+				A3ABAEAD1668EB7200CE7B2F /* ATCDefinitions.m in Sources */,
+				A3665622166ABEE0002B7270 /* ATCFullAlternativeInformationVC.m in Sources */,
+				A31FFAFE166B8460009D9E10 /* ATCQuestionStatisticsVC.m in Sources */,
+				A306B273166FFFF60099F167 /* ATCColorPalette.m in Sources */,
+				A3A0F71D1672779D007ACA4D /* ATCCreateQuestionTVC.m in Sources */,
+				A3A0F72A16729363007ACA4D /* UITextView+sizeFontToFitFrame.m in Sources */,
+				A3CC5F241674DA7100930EDA /* ATCCustomCellBackground.m in Sources */,
+				A3CC5F2A167554BB00930EDA /* ATCCommonDrawing.m in Sources */,
+				A3E6BCC41677F555006D5805 /* ATCLoadingIndicator.m in Sources */,
+				BE69C7A0167C039500370CE8 /* ATCListItemsTVC.m in Sources */,
+				A3DBD367167C899A002E6BE2 /* ATCVoteCache.m in Sources */,
+				A3DBD36B167C89C1002E6BE2 /* NSMutableArray+FIFO.m in Sources */,
+				A3DBD36E167C89F6002E6BE2 /* ATCQuestionVoteStruct.m in Sources */,
+				A3FB9129167DE39800B70592 /* ATCUserAuthHelper.m in Sources */,
+				A3FB912E167DE66D00B70592 /* ATCLoginTVC.m in Sources */,
+				A3FB9150167E6ADC00B70592 /* NSString+de_encoding.m in Sources */,
+				A3EDEC39167EA50600AFAB4B /* PDKeychainBindings.m in Sources */,
+				A3EDEC3A167EA50600AFAB4B /* PDKeychainBindingsController.m in Sources */,
+				A301A345167F675800D1AAB7 /* UIView+addShadow.m in Sources */,
+				A301A349167F834700D1AAB7 /* ATCCustomSectionHeader.m in Sources */,
+				A3EDEC49167EC25E00AFAB4B /* ATCUserPageTVC.m in Sources */,
+				A350F50E167FB62B0029309F /* ATCSearchQuestionsTVC.m in Sources */,
+				A3F2CFE7167FC6CC0039BA7F /* NSString+boolAppender.m in Sources */,
+				A3F2CFEB167FEEFC0039BA7F /* ATCLabel.m in Sources */,
+				A35AD0F01682930D002ABBA7 /* UIBarButtonItem+customBackground.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		A3C502C1165A745C0011C6CF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		A3C502C2165A745C0011C6CF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A3C502C4165A745C0011C6CF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ATC/ATC-Prefix.pch";
+				INFOPLIST_FILE = "ATC/ATC-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				PRODUCT_NAME = AskTheCloud;
+				TARGETED_DEVICE_FAMILY = 1;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		A3C502C5165A745C0011C6CF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ATC/ATC-Prefix.pch";
+				INFOPLIST_FILE = "ATC/ATC-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				PRODUCT_NAME = AskTheCloud;
+				TARGETED_DEVICE_FAMILY = 1;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A3C50299165A745C0011C6CF /* Build configuration list for PBXProject "ATC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A3C502C1165A745C0011C6CF /* Debug */,
+				A3C502C2165A745C0011C6CF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A3C502C3165A745C0011C6CF /* Build configuration list for PBXNativeTarget "ATC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A3C502C4165A745C0011C6CF /* Debug */,
+				A3C502C5165A745C0011C6CF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A3C50296165A745C0011C6CF /* Project object */;
+}

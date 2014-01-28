@@ -1,0 +1,17 @@
+REST-api för alla frontends (iPhone app/web/whatever). Detta är REST-API version 0.0.9.
+
+Varje /api/*-handler nedanför svarar med ett JSON-objekt med ett "status"-fält. Om "status"-fältet är "ok" och HTTP response code är 200 så finns det ett fält "data" som innehåller det du vill ha. Om "status"-fältet är "bad request" och HTTP response code är 400 så har du (programmeraren) gjort något fel, och anledningen finns i fältet "reason" som en string. Visa aldrig det här felet för användaren, utan åtgärda ditt program innan release istället.
+
+GET /api/questions
+Fältet "data" kommer att innehålla en lista, där varje element är ett JSON-objekt. Objekten i listan har fälten "id" (integer), "question" (string) och "createdAt" (string i ISO-8601-format med date, time, milliseconds och tidszon. Du bör parsa tidszonen också, för den kan vara olika mellan frågor)
+
+GET /api/question/:id (ex. /api/question/23)
+Fältet "data" kommer att innehålla ett objekt, med två fält, "question" och "alternatives". "question" har "id", "question" och "createdAt" som i /api/questions ovan. "alternatives" är en lista utav objekt, där varje objekt har fälten "alternative" och "votes". Fältet "alternative" innehåller ett objekt med "number" (integer) och "text" (string). Fältet "votes" innehåller ett objekt med "count" (integer).
+Om frågan inte finns så sätts HTTP status code till 404.
+
+POST /api/question/ask
+Du måste POSTa ett JSON-objekt med "question" (string) samt "alternatives" (lista utav strängar).
+Om allt gick rätt till så kommer "data" att innehålla den skapade frågans "id".
+
+POST /api/question/:id/vote/:number (ex. /api/question/23/vote/2)
+POSTat innehåll ignoreras i denna version. Om röstningen lyckades så sätts "data" till null (och "status" blir "ok" osv som vanligt). Om frågan eller alternativet inte hittades så sätts HTTP status code till 404.
